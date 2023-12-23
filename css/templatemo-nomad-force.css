@@ -11,7 +11,7 @@ https://templatemo.com/tm-567-nomad-force
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #ffc107;
+  --primary-color:                #E3651D;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --grey-color:                   #fcfeff;
@@ -109,6 +109,7 @@ p {
 
 .text-secondary-white-color {
   color: var(--text-secondary-white-color);
+  letter-spacing: 2px;
 }
 
 a, 
@@ -221,6 +222,7 @@ strong {
   color: var(--primary-color);
   font-size: 24px;
   font-weight: var(--font-weight-bold);
+  letter-spacing: 3px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -558,9 +560,11 @@ strong {
 
 .contact-form .form-control {
   border-radius: 0;
-  font-weight: var(--font-weight-normal);
+  font-weight: var(--font-weight-bold);
   padding-top: 12px;
   padding-bottom: 12px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
 }
 
 .contact-form button[type='submit'] {
@@ -568,19 +572,28 @@ strong {
   border: none;
   border-radius: 100px;
   color: var(--white-color);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   text-transform: uppercase;
   padding: 16px;
   transition: all 0.6s ease-out;
+  letter-spacing: 2px;
 }
 
 .contact-form button[type='submit']:hover {
   background: var(--primary-color);
+  letter-spacing: 5px;
 }
 
 .form-label {
-  color: var(--p-color);
-  font-weight: var(--font-weight-bold);
+  color: var(--dark-color);
+  font-weight: var(--font-weight-black);
+  letter-spacing: 2px;
+}
+.form-check-label
+{
+  color: var(--dark-color);
+  font-weight: bolder;
+  letter-spacing: 2px ;
 }
 
 .map-iframe {
