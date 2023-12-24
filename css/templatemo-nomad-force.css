@@ -400,7 +400,7 @@ strong {
   width: 65%;
   padding: 22px 32px 32px 32px;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .carousel-control-next, 
@@ -425,6 +425,9 @@ strong {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.maillink:hover{
+  letter-spacing: 3px;
+}
 /*---------------------------------------
   PORTFOLIO               
 -----------------------------------------*/
@@ -554,6 +557,7 @@ strong {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
+
 
 /*---------------------------------------
   CONTACT              
