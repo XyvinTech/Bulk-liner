@@ -393,18 +393,21 @@ strong {
 }
 
 .team-thumb {
-  background: var(--white-color);
+  /* background: var(--white-color); */
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   right: 0;
   width: 65%;
   padding: 22px 32px 32px 32px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .carousel-control-next, 
 .carousel-control-prev {
   top: auto;
   bottom: 2.5rem;
+  
 }
 
 .carousel-control-prev {
@@ -414,13 +417,17 @@ strong {
 
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
-  background-color: var(--dark-color);
+  /* background-color: var(--dark-color); */
   background-size: 50% 50%;
   border-radius: 100px;
   width: 3rem;
   height: 3rem;
+  background-color: rgba(0, 0, 0, 0);
 }
 
+.maillink:hover{
+  letter-spacing: 3px;
+}
 /*---------------------------------------
   PORTFOLIO               
 -----------------------------------------*/
@@ -551,6 +558,7 @@ strong {
   padding-bottom: 7rem;
 }
 
+
 /*---------------------------------------
   CONTACT              
 -----------------------------------------*/
@@ -568,7 +576,7 @@ strong {
 }
 
 .contact-form button[type='submit'] {
-  background: var(--dark-color);
+  background: var(--p-color);
   border: none;
   border-radius: 100px;
   color: var(--white-color);
@@ -605,7 +613,7 @@ strong {
   SITE FOOTER               
 -----------------------------------------*/
 .site-footer {
-  background: var(--dark-color);
+  background: rgb(39, 39, 39);
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
 }
@@ -734,3 +742,10 @@ strong {
   }
 }
 
+.aboutint p{
+  color: rgb(85, 85, 85);
+}
+
+.col-12 h2{
+  color: var(--primary-color);
+}
